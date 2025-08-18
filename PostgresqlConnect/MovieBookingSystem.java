@@ -174,7 +174,7 @@ class Movie implements MovieIt {
 public class MovieBookingSystem extends Movie {
     private static final String url = "jdbc:postgresql://localhost:5432/movie";
     private static final String user = "postgres";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
     public static void main(String[] args)throws ClassNotFoundException,SQLException {
         try{
             Class.forName("org.postgresql.Driver");
@@ -216,4 +216,5 @@ public class MovieBookingSystem extends Movie {
 
     }
 }
+
 
